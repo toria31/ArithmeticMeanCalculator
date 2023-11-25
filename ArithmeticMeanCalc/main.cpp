@@ -15,7 +15,7 @@ int main() {
                                                                       )";
 	std::cout << " " << "by toria\n\n";
 
-	std::cout << "please, enter number of your values >> ";
+	std::cout << "please, enter number of values >> ";
 	std::cin >> n; // get number of values
 	std::cout << "\nplease, enter values down below: \n";
 	std::cout << "--------------------------------\n";
