@@ -2,6 +2,15 @@
 #define IDI_ICON1
 #include <iostream>
 
+// function to calculate arithmetic mean
+int amCalculator(int arr2,float &sum2,int n2) {
+	for (int i = 0; i < n2; i++) {
+		std::cin >> arr2;
+		sum2 += arr2;
+	}
+	return sum2;
+}
+
 int main() {
 	// variables
 	int n;
@@ -21,10 +30,7 @@ int main() {
 	std::cout << "--------------------------------\n";
 	
 	// calculate arithmetic mean
-	for (int i = 0; i < n; i++) {
-		std::cin >> arr[i];
-		sum += arr[i];
-	}
+	amCalculator(arr[50],sum,n);
 
 	result = sum / n;
 
